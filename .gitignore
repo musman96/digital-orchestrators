@@ -1,5 +1,6 @@
 
 *.dll
+*.props
 FBI.WebAPI/obj/
 FBI.WebAPI/bin/
 .vs/FBI.WebAPI/FileContentIndex/be44bd2d-b1ea-4ae1-9474-fcbd01ce1724.vsidx

@@ -24,7 +24,10 @@ namespace FBI.WebAPI
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
-                app.UseSwagger();
+                app.UseSwagger(options =>
+                {
+                    options.SerializeAsV2 = true;
+                });
                 app.UseSwaggerUI();
                 //app.UseSwaggerUI(options =>
                 //{

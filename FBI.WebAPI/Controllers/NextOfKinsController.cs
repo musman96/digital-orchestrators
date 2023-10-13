@@ -22,13 +22,14 @@ namespace FBI.WebAPI.Controllers
 
         // GET: api/NextOfKins
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<NextOfKin>>> GetNextOfKins()
+        public async Task<ActionResult<IEnumerable<NextOfKin>>> GetNextOfKins(Guid criminalId)
         {
           if (_context.NextOfKins == null)
           {
               return NotFound();
           }
-            return await _context.NextOfKins.ToListAsync();
+            var nextOfKin = await _context.NextOfKins.Where(x => x.CriminalId == criminalId).ToListAsync();
+            return nextOfKin;
         }
 
         // GET: api/NextOfKins/5

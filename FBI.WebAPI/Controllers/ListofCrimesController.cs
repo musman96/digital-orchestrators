@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using FBI.WebAPI.Models;
-using FBI.WebAPI.ViewModels;
 
 namespace FBI.WebAPI.Controllers
 {
