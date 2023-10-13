@@ -1,0 +1,10 @@
+
+*.dll
+FBI.WebAPI/obj/
+FBI.WebAPI/bin/
+.vs/FBI.WebAPI/FileContentIndex/be44bd2d-b1ea-4ae1-9474-fcbd01ce1724.vsidx
+.vs/FBI.WebAPI/FileContentIndex/416170e9-04f8-4ca5-b8d8-03af63a19389.vsidx
+.vs/FBI.WebAPI/FileContentIndex/37bc9e7e-0c99-49af-9fc2-30d13ca3bac8.vsidx
+.vs/FBI.WebAPI/FileContentIndex/35f611ee-647a-4c60-8183-ff1a01b9c455.vsidx
+.vs/FBI.WebAPI/FileContentIndex/0b702002-a5a3-458d-92a0-015b726bef32.vsidx
+.vs/FBI.WebAPI/DesignTimeBuild/.dtbcache.v2
